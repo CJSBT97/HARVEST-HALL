@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    /* 1rem = 80 */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.flexCenterSB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexStartSB {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/font/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Marvel';
+    src: url('../assets/font/Marvel-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MPLUSRounded1c Blod';
+    src: url('../assets/font/MPLUSRounded1c-Bold.ttf') format('truetype');
+}
