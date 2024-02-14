@@ -41,6 +41,11 @@ img {
 }
 
 @font-face {
+    font-family: 'Roboto Blod';
+    src: url('../assets/font/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Marvel';
     src: url('../assets/font/Marvel-Regular.ttf') format('truetype');
 }

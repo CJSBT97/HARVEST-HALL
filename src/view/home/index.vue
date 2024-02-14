@@ -192,6 +192,8 @@ export default {
                     font-size: 15px
                     letter-spacing: 3px
                     font-weight: normal
+                    width: 64%
+                    line-height: 150%
                 & .icon
                     display: flex
                     align-items: center
