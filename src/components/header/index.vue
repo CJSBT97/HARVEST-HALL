@@ -34,6 +34,10 @@
                 </div>
             </div>
         </header>
+        <div class="titleBnner">
+            <img src="@/assets/images/logo.svg">
+            <p>A FRESH WEB3 ARTICLE EVERY XXX</p>
+        </div>
     </div>
 </template>
 
@@ -69,6 +73,15 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.titleBnner
+    text-align: center
+    img
+        width: 495px
+        height: 110px
+    p
+        font-size: 15px
+        font-family: 'Roboto'
+        letter-spacing: 3px
 .el-menu.el-menu--horizontal
     border: none
 .el-menu--horizontal>.el-menu-item

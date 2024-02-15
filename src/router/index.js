@@ -64,6 +64,21 @@ export const constantRoutes = [
         ]
     },
     {
+        path: '/',
+        component: Layout,
+        redirect: '/MEMENTO',
+        children: [
+            {
+                path: 'MEMENTO',
+                component: () => import('@/view/menento/index'),
+                name: 'MEMENTO',
+                meta: {
+                    title: 'MEMENTO'
+                }
+            }
+        ]
+    },
+    {
         path: '*',
         redirect: '/404',
         hidden: true

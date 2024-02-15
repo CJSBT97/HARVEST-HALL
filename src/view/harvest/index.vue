@@ -1,10 +1,6 @@
 <template>
     <div>
-        <div class="titleBnner">
-            <img src="@/assets/images/logo.svg">
-            <p>A FRESH WEB3 ARTICLE EVERY XXX</p>
-        </div>
-        <el-main style="height: calc(100% - 130px);">
+        <el-main style="height: 100%;">
             <div class="left">
                 <div class="title titleText"
                      style="display: flex;">
@@ -110,15 +106,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.titleBnner
-    text-align: center
-    img
-        width: 495px
-        height: 110px
-    p
-        font-size: 15px
-        font-family: 'Roboto'
-        letter-spacing: 3px
 .el-main
     position: relative
     display: flex
@@ -130,7 +117,6 @@ export default {
         box-sizing: border-box
         width: 45%
         height: 100%
-        background: #f5f5f5
         .title
             position: absolute
             top: -18px
@@ -185,7 +171,6 @@ export default {
     box-sizing: border-box
     width: calc(55% - 30px)
     height: 100%
-    background: #f5f5f5
     display: flex
     flex-wrap: wrap
     justify-content: space-between

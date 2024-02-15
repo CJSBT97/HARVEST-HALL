@@ -1,7 +1,7 @@
 <template>
     <div class="layout">
         <Header></Header>
-        <router-view style="height: calc(100% - 49px);" />
+        <router-view style="height: calc(100% - 190px);" />
     </div>
 </template>
 
