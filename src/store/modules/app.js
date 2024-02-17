@@ -1,9 +1,13 @@
 // import Cookies from 'js-cookie'
 
 const state = {
+    pageName: 'pageBlack'
 }
 
 const mutations = {
+    savePageName (state, pageName) {
+        state.pageName = pageName
+    }
 }
 
 const actions = {
